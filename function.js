@@ -1,9 +1,10 @@
-/* Popular */
+/* popular */
 
 /* declare */
-function functionName() {
-    console.log("Hello, World");
+function functionName(x, y) {
+    console.log(x + y);
 }
+// function functionName(x = 0, y = 0) to set default value
 
 /* execute */
-functionName();
+functionName(2, 3);
